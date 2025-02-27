@@ -14,9 +14,7 @@ void main() {
    if (d < 0.3) {
       // o_colour = vec4(u_colour, 1);
       o_colour = vec4(0,0,0,1);
-         if (v.x + v.y + 0.5) {
-            o_colour = vec4(0,255,0, 1);
-         }
+         
    }
    else {
       // o_colour = vec4(0,0,0,1); // BLACK
