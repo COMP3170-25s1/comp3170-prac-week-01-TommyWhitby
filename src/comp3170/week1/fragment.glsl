@@ -11,7 +11,7 @@ void main() {
    vec2 v = abs(p - vec2(0.5, 0.5));
    float d = max(v.x, v.y);
   
-   if (d < 0.3) {
+   if (v.x + v.y <= 0.3) {
       // o_colour = vec4(u_colour, 1);
       o_colour = vec4(0,0,0,1);
          
